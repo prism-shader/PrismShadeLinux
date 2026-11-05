@@ -2274,7 +2274,7 @@ namespace VKIntox
             const float titleSize = ImGuiM3GetTypeStyle(ImGuiM3Type_TitleLarge).size * ImGuiM3GetMetrics().density;
             if (bold)
                 ImGui::PushFont(bold, titleSize);
-            const char* brand = "VKIntox";
+            const char* brand = "PrismShade: Linux";
             const ImVec2 textSize = ImGui::CalcTextSize(brand);
             drawList->AddText(ImVec2(windowPos.x + (windowSize.x - textSize.x) * 0.5f,
                                      windowPos.y + (titleBarHeight - textSize.y) * 0.5f),

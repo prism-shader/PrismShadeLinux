@@ -34,8 +34,8 @@ namespace VKIntox::DefaultConfig
         }
         return {};
     }
-    // the shipped preset is pink-based Expressive and dark.
-    inline constexpr uint32_t kThemeSource = 0xFFE91E63;
+    // the shipped preset is blue-based Expressive and dark.
+    inline constexpr uint32_t kThemeSource = 0xFF2196F3;
     inline constexpr ImGuiM3Variant kThemeVariant = ImGuiM3Variant_Expressive;
     inline constexpr ImGuiM3Contrast kThemeContrast = ImGuiM3Contrast_Medium;
     inline constexpr bool kThemeDark = true;
