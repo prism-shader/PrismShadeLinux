@@ -58,7 +58,7 @@ namespace VKIntox
             const std::string version = std::string("version ") + runtimeVersion() + "  \xC2\xB7  beta";
 
             ImGui::PushFont(wordFont, wordPx);
-            const ImVec2 wordSize = ImGui::CalcTextSize("VKIntox");
+            const ImVec2 wordSize = ImGui::CalcTextSize("PrismShade: Linux");
             ImGui::PopFont();
             ImGui::PushFont(tagFont, tagPx);
             const ImVec2 tagSize = ImGui::CalcTextSize(tagline, nullptr, false, textW);
@@ -80,7 +80,7 @@ namespace VKIntox
 
             const float textX = blockPos.x + iconSize + gap;
             float ty = blockPos.y + (blockH - textH) * 0.5f;
-            dl->AddText(wordFont, wordPx, ImVec2(textX, ty), ImGuiM3ColorU32(ImGuiM3Role_OnSurface), "VKIntox");
+            dl->AddText(wordFont, wordPx, ImVec2(textX, ty), ImGuiM3ColorU32(ImGuiM3Role_OnSurface), "PrismShade: Linux");
             ty += wordSize.y + lineGap;
             dl->AddText(tagFont, tagPx, ImVec2(textX, ty), ImGuiM3ColorU32(ImGuiM3Role_OnSurface), tagline,
                         nullptr, textW);
@@ -120,10 +120,10 @@ namespace VKIntox
         ImGui::TextDisabled("%s", disclaimer);
         ImGui::PopTextWrapPos();
         ImGui::Spacing();
-        ImGui::TextDisabled("VKIntox by buwryme  \xC2\xB7  version %s", runtimeVersion());
+        ImGui::TextDisabled("PrismShade: Linux by buwryme  \xC2\xB7  version %s", runtimeVersion());
         ImGui::TextDisabled("Report issues:");
         ImGui::SameLine();
-        ImGui::TextLinkOpenURL("github.com/VKIntox/VKIntox/issues", "https://github.com/VKIntox/VKIntox/issues");
+        ImGui::TextLinkOpenURL("github.com/prism-shader/PrismShadeLinux/issues", "https://github.com/prism-shader/PrismShadeLinux/issues");
         UI::PopSupport();
     }
 

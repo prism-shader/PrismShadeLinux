@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="assets/icon.svg" width="128" alt="VKIntox's logo">
+  <img src="assets/prismshade_logo.png" width="128" alt="PrismShade: Linux's logo">
 </p>
 
-<h1 align="center">VKIntox</h1>
+<h1 align="center">PrismShade: Linux</h1>
 
 <p align="center">Linux-first Vulkan PostFX layer with actually functioning depth effects, and lots more features...</p>
 
