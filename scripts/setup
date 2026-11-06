@@ -4,7 +4,7 @@
 
 set -euo pipefail
 
-REPO="VKIntox/VKIntox"
+REPO="prism-shader/PrismShadeLinux"
 LAYER_ID="org.freedesktop.Platform.VulkanLayer.VKIntox"
 RELEASES_URL="${VKINTOX_RELEASES_URL:-https://api.github.com/repos/$REPO/releases?per_page=100}"
 EFFECT_PACKAGES_URL="${VKINTOX_EFFECT_PACKAGES_URL:-https://raw.githubusercontent.com/$REPO/refs/heads/main/assets/EffectPackages.ini}"
