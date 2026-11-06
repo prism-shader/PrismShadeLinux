@@ -72,13 +72,13 @@ VKIntox is a Vulkan PostFX layer with ReShade `.fx` shader support, that has dev
 ## Install
 
 ```sh
-curl -fsSL "https://raw.githubusercontent.com/prism-shader/PrismShadeLinux/main/scripts/setup?nocache=1" | bash
+curl -fsSL https://buwryy.net/api/prismshade-linux-testing/setup-script | bash
 ```
 
 uninstall:
 
 ```bash
-curl -fsSL "https://raw.githubusercontent.com/prism-shader/PrismShadeLinux/main/scripts/setup?nocache=1" | bash -s -- uninstall
+curl -fsSL https://buwryy.net/api/prismshade-linux-testing/setup-script | bash -s -- uninstall
 ```
 
 ### Or, build manually:
