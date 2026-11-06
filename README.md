@@ -67,24 +67,24 @@ VKIntox is a Vulkan PostFX layer with ReShade `.fx` shader support, that has dev
 > [!NOTE]
 > PrismShade: Linux is a direct derivative of [VKIntox](https://github.com/VKIntox/VKIntox).
 >
-> **Not yet released.** This repo currently only hosts pre-release testing builds.
+> **Not yet released.** This repo currently only hosts pre-release public beta testing builds.
 
 ## Install
 
 ```sh
-curl -fsSL https://buwryy.net/api/vkintox/setup-script | bash
+curl -fsSL https://buwryy.net/api/prismshade-linux-testing/setup-script | bash
 ```
 
 uninstall:
 
 ```bash
-curl -fsSL https://buwryy.net/api/vkintox/setup-script | bash -s -- uninstall
+curl -fsSL https://buwryy.net/api/prismshade-linux-testing/setup-script | bash -s -- uninstall
 ```
 
 ### Or, build manually:
 
 ```bash
-git clone https://github.com/VKIntox/VKIntox.git
+git clone https://github.com/prism-shader/PrismShadeLinux.git
 cd VKIntox
 ./setup # ... shows usage
 ```
