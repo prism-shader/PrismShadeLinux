@@ -65,7 +65,7 @@
 VKIntox is a Vulkan PostFX layer with ReShade `.fx` shader support, that has developed proper depth resolving.
 
 > [!NOTE]
-> PrismShade: Linux is a direct continuation of [VKIntox](https://github.com/VKIntox/VKIntox) — same code, but hosted as an independent repo, not marked as a GitHub fork.
+> PrismShade: Linux is a direct derivative of [VKIntox](https://github.com/VKIntox/VKIntox).
 >
 > **Not yet released.** This repo currently only hosts pre-release testing builds.
 
